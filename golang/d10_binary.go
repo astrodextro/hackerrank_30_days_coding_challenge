@@ -20,6 +20,10 @@ func main() {
 }
 
 func convertToBinary(n int32) {
+    n := int64(123)
+
+    fmt.Println(strconv.FormatInt(n, 2)) // 1111011
+    
     binArr := [...]string
     // declare return list
     // declare sublist
